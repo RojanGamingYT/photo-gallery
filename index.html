@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <div class ="album">
+        <div style ="background-image: url('https://image.thum.io/get/width/1200/png/wait/3/https://rojansapkota.com.np/');"></div>
+        <div style ="background-image: url('https://image.thum.io/get/width/1200/png/wait/3/https://rojansapkota.com.np/');"></div>
+        <div style ="background-image: url('https://image.thum.io/get/width/1200/png/wait/3/https://rojansapkota.com.np/');"></div>
+        <div style ="background-image: url('https://image.thum.io/get/width/1200/png/wait/3/https://rojansapkota.com.np/');"></div>
+        <div style ="background-image: url('https://image.thum.io/get/width/1200/png/wait/3/https://rojansapkota.com.np/');"></div>         
+    </div>
+<style>
+    .album{
+        display: flex;
+        height: 20rem;
+        gap: 1rem;
+    }
+    .album > div {
+        flex: 1;
+        border-radius: 1rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        transition: all .8s cubic-bezier(.25,.4,.45,1.4);
+    }
+    .album > div:hover{
+        flex: 5;
+    }
+</style>
+</body>
+</html>
